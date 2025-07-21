@@ -23,9 +23,13 @@ Support data-driven decision-making for marketing and supply chain teams.
 Feature	Description
 
 Dataset Name Worldwide_Bike_Accessories_Analysis.xlsx
-Time Period	January 2022 – December 2023
+
+Time Period	July 2017 – December 2021
+
 Geography	Global (North America, Europe, Asia, Australia, etc.)
+
 Source	Simulated business dataset
+
 Number of Records	~15,000 transactions
 
 📌 Key Fields:
@@ -33,19 +37,20 @@ Order Date
 
 Product Category (e.g., Helmets, Lights, Locks, Pumps)
 
-Product Name
+Product Name:Bike Accessories
 
-Country / Region
+Country / Region:Geography	Global (North America, Europe, Asia, Australia, etc.)
+
 
 Customer Segment (Consumer, Corporate, Small Business)
 
-Sales
+Sales:Provided on dataset
 
-Quantity
+Quantity:Provided on dataset
 
-Profit
+Profit: Analysis provided on dataset
 
-Discount
+Discount:Analysis provided on dataset
 
 Shipping Cost
 
@@ -99,9 +104,7 @@ Year-over-Year Growth
 
 Seasonal Demand Insights
 
-📷 Dashboard Preview
 
-(Insert a screenshot of your Power BI report or GIF preview here)
 
 🔧 Data Cleaning & Transformation
 
@@ -119,17 +122,17 @@ Created new calculated columns (e.g., Profit Margin, Discounted Price)
 
 Created key DAX Measures:
 
-Total Sales
+Total Sales:Analysis in Dataset
 
-Total Profit
+Total Profit:Analysis in Dataset
 
-Profit Margin %
+Profit Margin ::Analysis in Dataset
 
-Sales YoY Growth %
+Sales Growth :Analysis in Dataset
 
-Top N Products
+Top N Products:Analysis in Dataset
 
-Cumulative Sales
+Cumulative Sales::Analysis in Dataset
 
 📌 Key Insights
 
@@ -146,13 +149,20 @@ High discount rates in Asia impacted profit despite high volume sales.
 📁 Folder Structure
 
 📦Worldwide_Bike_Accessories_Analysis
+
  ┣ 📊 Bike_Accessories_Global_Report.pbix
+ 
  ┣ 📁 Data
+ 
  ┃ ┗ 📄 Worldwide_Bike_Accessories_Sales.xlsx
+ 
  ┣ 📄 README.md
+ 
  ┗ 📄 Dashboard_Screenshot.png
+ 
 ▶️ How to Use
-Download or clone this repository
+
+Download or clone this repository::https://github.com/shubham170298/Power-BI-Project.git
 
 Open Bike_Accessories_Global_Report.pbix in Power BI Desktop
 
@@ -168,7 +178,6 @@ Add forecasting features using time series models
 
 Include inventory and return data for supply chain analysis
 
-Integrate live data source (SQL or Web API)
 
 Create mobile-optimized report view
 
@@ -179,6 +188,6 @@ MBA in Finance | Data Analyst | Power BI Developer
 
 📧 Email: [shubhamsrivastav949@gmail.com]
 
-Github Link:
+Github Link:https://github.com/shubham170298/Power-BI-Project.git
 
 
